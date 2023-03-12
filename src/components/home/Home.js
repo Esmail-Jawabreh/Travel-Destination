@@ -1,17 +1,16 @@
-import Header from '../header/Header';
-import Tours from '../tours/Tours';
-import Footer from '../footer/Footer';
-
+import React from 'react'
+import Footer from '../footer/Footer'
+import Tours from '../tours/Tours'
+import './Home.css'
+const data = require("../../data/db.json")
 
 
 function Home() {
-    return (
-      <body>
-        <header><Header/></header>
-        <main><Tours/></main>
-        <footer><Footer/></footer>
-      </body>
-    );
-  }
-  
-  export default Home;
+  return (
+    <div>
+      <Tours />
+      <Footer />
+    </div>
+  )
+}
+export default Home;
