@@ -1,20 +1,19 @@
-const data = require ("../../data/db.json");
+import Tour from './tour/Tour'
+// import Row from 'react-bootstrap/Row';
+const data = require('../../data/db.json')
 
-function Tours(){
-    return(
+function Tours() {
+    return (
         <>
-            <h2>Cities</h2>
-            {data.map((item)=>{
-                return (
-                    <div key={item.id}>
-                        <h3>{item.name}</h3>
-                        <img src={item.image} alt={item.name}></img>
-                        <hr/>
-                    </div>
-                )
-            })}
+           
+            {/* <Row xs={1} md={2} className="g-4"> */}
+                {data.map((item) => {
+                    return (
+                        <Tour key={item.id} tour={item} />
+                    )
+                })}
+            {/* </Row> */}
         </>
     )
 }
-
 export default Tours;
