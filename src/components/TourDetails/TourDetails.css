@@ -5,4 +5,10 @@
    -webkit-line-clamp: 1; /* number of lines to show */
            line-clamp: 1;
    -webkit-box-orient: vertical;
+   color: rgba(0, 0, 0, 0.9);
+}
+
+.btn{
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.9);
 }
