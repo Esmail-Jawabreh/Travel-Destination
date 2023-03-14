@@ -18,7 +18,7 @@ function TourDetails() {
             <h3>{details.name}</h3>
             <img src={details.image} alt={details.name}></img>
             <p className={showLines ? '' : 'showLess'}>{details.info}</p>
-            <button onClick={onClickBtn}>{showLines ? "Read less" : "Read more"}</button>
+            <button onClick={onClickBtn} class='btn'>{showLines ? "Read less" : "Read more"}</button>
             <p>Price:{details.price}</p>
         </>
 
