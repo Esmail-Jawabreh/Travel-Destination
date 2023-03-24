@@ -9,15 +9,13 @@ import './Navbar.css'
 function Navigatebar() {
     return (
         <>
-            {/* <Link to="/" className='nav-link'>Home</Link> */}
 
-            <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Travel Destination</Navbar.Brand>
+            <Navbar /*bg="dark"*/ variant="dark" className='nav'>
                 <Container>
+                    <Navbar.Brand href="/" className='sub'>Travel Destination</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Link to="/" className='nav-link'>Home</Link>
-                        {/* <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link> */}
+                        <Nav.Link href="/" className='link'>Home</Nav.Link>
+                        <Nav.Link href="about" className='link'>About</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
@@ -25,5 +23,6 @@ function Navigatebar() {
         </>
     )
 }
+
 
 export default Navigatebar;

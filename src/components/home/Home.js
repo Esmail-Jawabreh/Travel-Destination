@@ -7,9 +7,11 @@ const data = require("../../data/db.json")
 function Home() {
   return (
     <div>
-      <h1>Welcome</h1>
+      <h1 className='h'>Welcome</h1>
       <Tours />
     </div>
   )
 }
+
+
 export default Home;
