@@ -1,14 +1,41 @@
-.showLess{
-    overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 1; /* number of lines to show */
-           line-clamp: 1;
-   -webkit-box-orient: vertical;
-   color: rgba(0, 0, 0, 0.9);
+.showLess {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        /* number of lines to show */
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+        color: #2F5D62;
+        margin-top: 15px;
 }
 
-.btn{
-        color: #fff;
-        background-color: rgba(0, 0, 0, 0.9);
+.btn {
+        color: #DFEEEA;
+        background-color: #5E8B7E;
+}
+
+.p {
+        margin-top: 1.5%;
+        color: #2F5D62;
+}
+
+.h {
+        text-align: center;
+        margin-top: 5px;
+        color: #5E8B7E;
+}
+
+.div {
+        text-align: center;
+}
+
+.div2{
+        color: #2F5D62;
+        margin-top: 25px;
+}
+
+.img{
+        height: 30%;
+        width: 30%;
 }

@@ -2,6 +2,7 @@ import Tour from './tour/Tour'
 import Row from 'react-bootstrap/Row';
 const data = require('../../data/db.json')
 
+
 function Tours() {
     return (
         <>
@@ -15,4 +16,6 @@ function Tours() {
         </>
     )
 }
+
+
 export default Tours;

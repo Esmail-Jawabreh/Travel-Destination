@@ -1,22 +1,23 @@
 .footer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #2F5D62;
 
-    padding: 8px;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 
 .footer h5 {
+    padding: 8px;
     text-align: center;
-    color: #fff;
+    color: #DFEEEA;
 }
+
 
 .hover {
     --b: 0.1em;
-    --c: #fff;
+    --c: #DFEEEA;
 
-    color: #fff;
+    color: #DFEEEA;
     padding-block: var(--b);
     background:
         linear-gradient(var(--c) 50%, rgba(0, 0, 0, 0.9) 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
@@ -38,7 +39,7 @@
 /* icons design */
 
 :root {
-    --link-size: 48px;
+    --link-size: 38px;
     --trans-props: all 0.3s ease;
 }
 
@@ -68,9 +69,9 @@
 
     width: var(--link-size);
     height: var(--link-size);
-    margin: 4px;
+    margin: 7px;
 
-    background-color: #fff;
+    background-color: #DFEEEA;
     border-radius: 50%;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
 
@@ -82,8 +83,8 @@
 .social-icon i {
     margin: auto;
 
-    font-size: 24px;
-    color: rgb(63, 78, 79);
+    font-size: 25px;
+    color: #2F5D62;
     z-index: 1;
 }
 
@@ -121,12 +122,12 @@
 
 .social-icon:hover {
     transform: translateY(-4px);
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 4px 12px #2F5D62;
 }
 
 .social-icon:hover i {
 
-    color: #fff;
+    color: #DFEEEA;
 }
 
 .social-icon:hover:after {

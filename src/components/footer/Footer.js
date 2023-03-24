@@ -1,29 +1,31 @@
 import { React } from "react";
 import './Footer.css';
 
+
 function Footer() {
     return (
-        <div class='footer'>
+        <div className='footer'>
             <h5>© 2023 All Rights Reserved.</h5>
 
-            <div class="wrapper">
-                <div class="social-icons">
-                    <a class="social-icon mail" href="mailto:esmailjawabreh@gmail.com" target="_blank" rel="author">
-                        <i class="fa-sharp fa-solid fa-envelope"></i>
+            <div className="wrapper">
+                <div className="social-icons">
+                    <a className="social-icon mail" href="mailto:esmailjawabreh@gmail.com" target="_blank" rel="author">
+                        <i className="fa-sharp fa-solid fa-envelope"></i>
                     </a>
 
-                    <a class="social-icon instagram" href="https://www.instagram.com/esmail.sudgi/" target="_blank"
+                    <a className="social-icon instagram" href="https://www.instagram.com/esmail.sudgi/" target="_blank"
                         rel="author">
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                     </a>
 
-                    <a class="social-icon github" href="https://github.com/Esmail-Jawabreh" target="_blank" rel="author">
-                        <i class="fab fa-github"></i>
+                    <a className="social-icon github" href="https://github.com/Esmail-Jawabreh" target="_blank" rel="author">
+                        <i className="fab fa-github"></i>
                     </a>
                 </div>
             </div>
         </div>
     );
 }
+
 
 export default Footer;

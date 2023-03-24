@@ -4,21 +4,23 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import './Tour.css'
 
+
 function Tour(props) {
     return (
-        <Link to={`/city/${props.tour.id}`}>
-
+        <Link to={`/city/${props.tour.id}`} className='link'>
 
             <Col>
-                <Card class='card'>
-                    <Card.Img variant="top" src={props.tour.image} alt={props.tour.name} className='img' />
-                    <Card.Body>
-                        <Card.Title class='name'>{props.tour.name}</Card.Title>
-
+                <Card className='card'>
+                    <Card.Img variant="top" src={props.tour.image} alt={props.tour.name} />
+                    <Card.Body className='body'>
+                        <Card.Title className='name'>{props.tour.name}</Card.Title>
                     </Card.Body>
                 </Card>
             </Col>
+
         </Link >
     )
 }
+
+
 export default Tour;
